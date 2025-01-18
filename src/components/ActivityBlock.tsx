@@ -1,7 +1,6 @@
 import { motion, useAnimation } from 'framer-motion';
 import { useEffect, useState } from 'react';
 import { ArrowRight, GamepadIcon, Target, Users, Baby } from 'lucide-react';
-import Union from '../assets/Union.svg';
 interface BlockProps {
   title: string;
   description: string;
@@ -49,7 +48,7 @@ const Block = ({
         className="flex flex-col h-full"
         animate={controls}
       >
-        <div className="flex items-center gap-3 mb-3">
+        <div className="flex items-center gap-3 mb-2">
           <Icon className="w-6 sm:w-8 h-6 sm:h-8" strokeWidth={1.5} />
           <h3 className="text-lg sm:text-2xl font-bold">{title}</h3>
         </div>
