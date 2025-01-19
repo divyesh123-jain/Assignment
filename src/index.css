@@ -61,3 +61,51 @@ body {
     @apply font-bold tracking-tight;
   }
 }
+
+.embla {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  --slide-spacing: 1rem;
+  position: relative;
+}
+
+.embla__viewport {
+  overflow: hidden;
+  width: 100%;
+}
+
+.embla__container {
+  display: flex;
+  gap: var(--slide-spacing);
+  animation: scroll 30s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.embla__container:hover {
+  animation-play-state: paused;
+}
+
+.embla__slide {
+  flex: 0 0 auto;
+  min-width: fit-content;
+  padding: 0 var(--slide-spacing);
+  white-space: nowrap;
+}
+
+.embla__slide__number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.125rem;
+  font-weight: 500;
+  user-select: none;
+}

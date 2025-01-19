@@ -26,20 +26,20 @@ const Hero = () => {
         </motion.p>
 
         {/* Cards Section */}
-        <div className="grid grid-cols-1  sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1  sm:grid-cols-2 gap-8 lg:grid-cols-3">
           {/* Birthday Bashes Card */}
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}
-            className=" rounded-lg p-6  flex flex-col"
+            className=" rounded-lg  flex flex-col"
           >
             <div className='flex flex-row ' >
             <Cake className="w-12 h-12 mb-4" />
             <h2 className="text-xl sm:text-2xl font-semibold mb-4 sm:mt-3 mx-2">Birthday Bashes</h2>
             </div>
             <img src="https://playarena.in/wp-content/uploads/2024/12/BIRTHDAY-1.webp" alt="Birthday Bashes" className="w-full h-40 object-cover mb-4 rounded"/>
-            <p className="text-gray-600 mb-6 flex-grow">
+            <p className="text-gray-600 MB-6 flex-grow">
               Thrilling activities, exciting games, and delicious food—our custom packages ensure unforgettable experiences for all ages!
             </p>
             <Button variant="outline" className="w-full mt-auto">
@@ -51,7 +51,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4 }}
-            className="rounded-lg p-6  flex flex-col"
+            className="rounded-lg   flex flex-col"
           >
             <div className='flex flex-row ' >
             <Briefcase className="w-12 h-12 mb-4" />
@@ -70,7 +70,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5 }}
-            className=" rounded-lg p-6 flex flex-col"
+            className=" rounded-lg  flex flex-col"
           >
              <div className='flex flex-row ' >
             <Heart className="w-12 h-12 mb-4" />
