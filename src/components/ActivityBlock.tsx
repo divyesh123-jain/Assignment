@@ -68,7 +68,7 @@ const Block = ({
           }}
           className="w-full mt-auto"
         >
-          <button className="w-full bg-[#4361ee] text-white py-3 px-6 rounded-lg flex items-center justify-between hover:bg-[#3651d4] transition-colors">
+          <button className="w-full bg-[#4361ee] pb-3 text-white py-3 px-4 rounded-lg flex items-center justify-between hover:bg-[#3651d4] transition-colors">
             <span className="text-md sm:text-lg font-semibold">View All 2 Activities</span>
             <ArrowRight className="w-5 sm:w-6 h-5 sm:h-6" />
           </button>

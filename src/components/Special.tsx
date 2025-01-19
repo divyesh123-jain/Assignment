@@ -35,8 +35,8 @@ const specials: SpecialEvent[] = [
 
 export default function SpecialsSection() {
   return (
-    <section className="py-16 px-4 md:px-6 bg-gradient-to-b from-background to-secondary/20">
-      <div className="max-w-7xl mx-auto">
+    <section className="bg-gradient-to-b from-background to-secondary/20">
+      <div className="mx-4 md:mx-[40px] lg:mx-[186px] px-4 md:px-[40px]">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">
             SPECIALS
